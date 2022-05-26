@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="form.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <title>Bhoomiinitiative</title>
+  <style type="text/css">
+    .img-jn{
+      background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(jn42.jpg);
+      background-size: 70%,100%;
+    }
+    .img-ft{
+      background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(pic5.png);
+      background-size: 100%,100%;
+    }
+
+    .confirm{
+        position: absolute;
+        top: 250%;
+        left: 37%;
+        height: 255px;
+        width: 355px;
+        background-color: azure;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+  <div class="jumbotron jumbotron-fluid img-jn text-center" style="margin-bottom:0">
+    <h1 class="display-4"><font color="white">GO Recycle</font></h1>
+      <p name="tagline" style="font-family: cursive;"><font color="white">With the aim to clean and beautify Dhaka</font></p> 
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <img src="logo4.png" class="bd-placeholder-img round" width="55" height="50" />
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="home.html">Home</a>
+          <li class="nav-item">
+            <a class="nav-link" href="initiative.html">The Initiative</a>
+          </li>
+          <li class="nav-item active">
+              <a class="nav-link" href="form.html">Collection Center</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        </ul>
+       <a class="nav-link" href="login.html">Admin login</a>
+      </div>
+      <div class="confirm">
+            <br><br>
+            <p>Confirm by entering your mobile number :</p><br>
+            <form action="confirmschedule.php" method="POST">
+                <input type="tel" maxlength="10" name="confirmation" required><br><br>
+                <input type="submit">
+            </form>
+      </div>
+    </nav>
+</body>
+</html>

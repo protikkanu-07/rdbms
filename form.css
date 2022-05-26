@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+  }
+
+  .title
+{
+   text-align: center;
+   margin:50px 0px auto;   
+}
+.form {
+    text-align: center;
+    background-image: url("bg.jpg");
+    background-position: center;
+    backface-visibility: hidden;
+    background-size: 100%;
+    margin: 50px 250px;
+    opacity: 50;
+}
+label{
+    font-size: 25px;
+    background-color: white;
+}
+#house
+{
+    color: mediumslateblue;
+    background-color: white;
+    font-size: medium;
+    margin:50px 50px;
+    padding:50px auto;
+}
+#ward
+{
+    background-color: white;
+    font-size: medium;
+    margin: 100px 50px;
+    padding:50px auto
+}
+button {
+    background-color: white;
+    margin: 500px auto;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    float: inline-end;
+    background-image: none;
+}
+  
+.display-4{
+    font-family: "Bebas Neue";
+}
+.about{
+    margin: 50px 200px;
+    padding: 50px 50px;
+    background-color:lightcyan;
+    text-align: center;
+}
+table,th,td{
+    margin: 50px 360px;
+    padding: 5px;
+    border: solid black 1px;
+    text-align: center;
+    background-color: honeydew;
+}
+h3{
+    margin: 50px auto;
+}
+
